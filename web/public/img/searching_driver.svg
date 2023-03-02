@@ -1,0 +1,28 @@
+<svg width="120px" height="120px" viewBox="0 0 20 20" 
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <animate 
+        xlink:href="#back"
+        attributeName="r"
+        from="4.3"
+        to="10"
+        dur="1.5s"
+        begin="0s"
+        repeatCount="indefinite"
+        fill="freeze"
+        id="circ-anim"
+        />
+    <animate 
+        xlink:href="#back"
+        attributeType="CSS" attributeName="opacity"
+        from="0.8"
+        to="0"
+        dur="1.5s"
+        begin="0s"
+        repeatCount="indefinite"
+        fill="freeze" 
+        id="circ-anim"
+        />
+    <circle id="back" cx="10" cy="10" r="4" fill="#919191" stroke-width="1"/>
+    <circle class="front" cx="10" cy="10" fill="#919191" r="3.5"/>
+</svg>
